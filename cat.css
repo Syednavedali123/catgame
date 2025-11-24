@@ -1,0 +1,69 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cat{
+    background-color: black;
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+.btn_on{
+    width:100px;
+    height: 25px;
+    background-color: red;
+    border-radius: 5px;
+    color: black;
+    margin: 15px;
+
+}
+.btn_of{
+    width:100px;
+    height: 25px;
+    background-color:green;
+    border-radius: 5px;
+    color:black;
+
+    margin: 15px;
+
+}
+.heading{
+    color: aliceblue;
+    text-align: center;
+    font-size: medium;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#bottom{
+    background-color: gray;
+    width:fit-content;
+    padding:20px;
+    height:30vh;
+    margin-top:20px;
+    border-radius:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.bulb_img{
+    height:30vh;
+    width: ;
+    object-fit: cover;
+}
+.cat-image{
+    height:30vh;
+    
+    fit-content:cover;
+}
